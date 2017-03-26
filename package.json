@@ -1,0 +1,25 @@
+{
+  "name": "angular-typescript",
+  "version": "1.0.0",
+  "description": "Sample vehicle information with TypeScript, Angular, Edmunds API",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LatinWarrior/angular-typescript-edmunds.git"
+  },
+  "keywords": [
+    "Angular",
+    "TypeScript",
+    "Edmunds",
+    "Bootstrap"
+  ],
+  "author": "Luis Blanco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LatinWarrior/angular-typescript-edmunds/issues"
+  },
+  "homepage": "https://github.com/LatinWarrior/angular-typescript-edmunds#readme"
+}
