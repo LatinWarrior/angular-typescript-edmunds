@@ -1,7 +1,10 @@
 module app.domain {
-    interface IMake {
+
+    export interface IVehicleMake {
         id: number;
         name: string;
         niceName: string;        
+        models: Array<IVehicleModel>;
     }
+    
 }
