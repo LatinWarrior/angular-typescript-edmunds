@@ -11,14 +11,12 @@ module app.vehicles {
 
     class VehicleListController implements IVehicleListController {        
 
-        vehicles: Array<IVehicle>;
-
-        constructor() {
+        constructor(public vehicles: Array<IVehicle>) {
 
         }
 
         $onInit: () => {
-            vehicles =  new Array<IVehicle>();
+            this.vehicles =  new Array<IVehicle>();
         }
 
         $onChanges: (changes: any) => {

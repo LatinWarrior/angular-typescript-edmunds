@@ -2,4 +2,4 @@
 
 // Configure applcation module name.
 
-angular.module('app', ['ui.router']);
+let app = angular.module('app', ['ui.router']);
